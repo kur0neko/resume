@@ -9,159 +9,144 @@
 \usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{enumitem}
+\usepackage{graphicx}
 \usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr}
-\usepackage[english]{babel}
 \usepackage{tabularx}
-\usepackage{multicol}
 \usepackage{fontawesome5}
+\usepackage[english]{babel}
 
-% Adjust margins
-\addtolength{\oddsidemargin}{-0.8in}
-\addtolength{\evensidemargin}{-0.4in}
-\addtolength{\textwidth}{1.2in}
-\addtolength{\topmargin}{-0.7in}
-\addtolength{\textheight}{1.5in}
+% Margin adjustments
+\addtolength{\oddsidemargin}{-0.75in}
+\addtolength{\evensidemargin}{-0.75in}
+\addtolength{\textwidth}{1.5in}
+\addtolength{\topmargin}{-0.8in}
+\addtolength{\textheight}{1.6in}
 
 % Section formatting
-\titleformat{\section}{\vspace{-4pt}\scshape\raggedright\normalsize\bfseries}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
-
-% Compact item list spacing
-\setlist[itemize]{leftmargin=*, itemsep=1pt, parsep=0pt, topsep=0pt}
-
-% Ensure PDF is machine-readable
-\pdfgentounicode=1
+\titleformat{\section}{\scshape\large\bfseries}{}{0em}{}[\titlerule]
+\setlist[itemize]{leftmargin=*, itemsep=2pt, topsep=2pt}
 
 \begin{document}
-\vspace{-10pt}
 \begin{center}
-    {\Large \textbf{NUTTHAWAT PANYANGNOI}} \vspace{1pt} \\
-    \small 
-    \faPhone\ (209) 407-9730 ~|~
-    \href{mailto:panyangnoi.nutthawat@gmail.com}{\faEnvelope\ panyangnoi.nutthawat@gmail.com} ~|~
-    \href{https://www.linkedin.com/in/nathan-panyangnoi/}{\faLinkedin\ linkedin.com/in/nathan-panyangnoi/} \\
-    \href{https://github.com/kur0neko}{\faGithub\ github.com/kur0neko}
+\begin{minipage}[c]{0.15\textwidth}
+    \includegraphics[width=1.5in]{qr.png}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.8\textwidth}
+    \raggedleft
+    {\LARGE \textbf{NUTTHAWAT PANYANGNOI}} \\[1pt]
+    \faEnvelope~\href{mailto:panyangnoi.nutthawat@gmail.com}{panyangnoi.nutthawat@gmail.com} \\[-1pt]
+    \faLinkedin~\href{https://www.linkedin.com/in/nathan-panyangnoi/}{linkedin.com/in/nathan-panyangnoi} \\[-1pt]
+    \faGithub~\href{https://github.com/kur0neko}{github.com/kur0neko} \\[-1pt]
+    \faGlobe~\href{https://www.lumiere-lab.com}{https://www.lumiere-lab.com}
+\end{minipage}
 \end{center}
+\vspace*{-20pt}
 
-%-----------EDUCATION-----------
-%\section{Education}
-%\begin{itemize}
-%   \item \textbf{San Jose State University}, San Jose, CA \hfill \textbf{Dec 2025} \\ 
-%  \textbf{B.S. Computer Engineering}, Minor: Computer Science ~|~ GPA: 3.35/4.0 \\
-% \item \textbf{Las Positas College}, Livermore, CA \hfill \textbf{May 2022} \\
-%\textbf{A.S. Computer Science}, Minor: Math ~|~ GPA: 3.5/4.0 \\
-% \item \textbf{King Mongkut’s University of Technology Thonburi}, Bangkok, Thailand \hfill \textbf{May 2013} \\ 
-% \textbf{B.S. Computer Science} (75 credits completed; transferred due to family relocation to California)
-%\end{itemize}
-
+\section*{Career Objective}
+I have always been fascinated by computers, starting from a young age assembling hardware and experimenting with configurations. Through my studies and internships, I've gained hands-on experience building full-stack applications, developing mobile apps, training deep learning models, and assembling high-performance servers. I'm eager to continue learning and apply my skills to innovative projects in the technology industry.
 \section{EDUCATION}
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{San Jose State University}, San Jose, CA & \textbf{Dec 2025} \\
+\textit{B.S. Computer Engineering}, Minor: Computer Science & GPA: 3.327/4.0 \\
+\\
+\textbf{Las Positas College}, Livermore, CA & \textbf{May 2022} \\
+\textit{A.S. Computer Science}, Minor: Math & GPA: 3.5/4.0 \\
+\end{tabular*}
+
+\section*{Technical Skills}
+\begin{tabularx}{\textwidth}{X}
+\textbf{Programming:} C, C++, Python, JavaScript, SQL, Verilog, HTML, CSS \\
+\textbf{Deep Learning / ML:} PyTorch, TensorFlow, NumPy, Scikit-learn, OpenCV, Jupyter, CUDA \\
+\textbf{Embedded Systems:} Raspberry Pi CM4, FPGA (Verilog/SystemVerilog), LTspice, Oscilloscope, KiCad \\
+\textbf{Software:} Docker, VMware, Vivado, SolidWorks, Office 365, Figma \\
+\textbf{Hardware:} IT Support, BIOS Flashing, RAID, VPN, NAS, Troubleshooting \\
+\textbf{Operating Systems:} Linux, Windows, macOS \\
+\end{tabularx}
+
+\section*{Work Experience}
+\textbf{NASA Proposal Writing and Evaluation Experience} \hfill \textbf{Aug 2024 -- Dec 2024} \\
+Computer Engineer  \hfill Remote
 \begin{itemize}
-    \item \textbf{San Jose State University}, San Jose, CA \hfill \textbf{Dec 2025} \\ 
-    \textbf{B.S. Computer Engineering}, Minor: Computer Science ~|~ GPA: 3.35/4.0 
-    \item \textbf{Las Positas College}, Livermore, CA \hfill \textbf{May 2022} \\
-    \textbf{A.S. Computer Science}, Minor: Math ~|~ GPA: 3.5/4.0 
-\end{itemize}
-%------RELEVANT COURSEWORK-------
-%\section{Relevant Coursework}
-%\begin{itemize}
-%    \item Software Engineering, Digital Circuits, Data Structures
-%    \item Embedded Systems, OS Design, Computer Architecture, Compiler Design, Networks
-%    \item Assembly, Databases (SQL/NoSQL), OOD/OOP C/C++, Java, Python, Verilog
-%\end{itemize}
-%-----------TECHNICAL SKILLS-----------
-%\section{TECHNICAL SKILLS}
-%\begin{itemize}
-%    \item \textbf{Programming Languages:} C, C++, Python, JavaScript, React Native, React, SQL, Verilog, HTML, CSS
-%    \item \textbf{Software:} VMware, Docker, Office 365, SolidWorks, LTspice, Vivado, Figma UI design and diagrams(UML,Block) 
-%    \item \textbf{Networking:} TCP/IP, DNS/DHCP, NAS Setup, VPN Configuration
-%    \item \textbf{Hardware:} IT Support, Computer Assembly (NASM, MASM), Server Setup, Troubleshooting, BIOS Flashing, RAID Configuration, Oscilloscope
-%    \item \textbf{Operating Systems:} Windows, Linux (Mint, Arch, Ubuntu), macOS
-%\end{itemize}
-\section{TECHNICAL SKILLS}
-\begin{itemize}
-    \item \textbf{Programming Languages:} C, C++, Python, JavaScript, SQL, Verilog, HTML, CSS, (Familiar with C#)
-    \item \textbf{Deep Learning / ML:} PyTorch, TensorFlow, NumPy, Scikit-learn, OpenCV, Jupyter
-    \item \textbf{Embedded Systems:} Raspberry Pi CM4, NVIDIA Jetson (familiar), FPGA (Verilog/SystemVerilog), LTspice, Oscilloscope, KiCad
-    \item \textbf{Software:} Docker, VMware, Vivado, SolidWorks, Office 365, Figma
-    \item \textbf{Hardware:} IT Support, BIOS Flashing, RAID, VPN, NAS, Troubleshooting
-    \item \textbf{Operating Systems:} Linux (Ubuntu, Arch, Mint), Windows, macOS
-\end{itemize}
-%-----------WORK EXPERIENCE-----------
-\section{WORK EXPERIENCE}
-\textbf{NASA MSFC NPWEE Program} — \textit{Electrical \& Computer Engineer }\hfill \textbf{Aug 2024 -- Dec 2024} \\
-\textit{Remote}
-\begin{itemize}
-    \item Conducted technical research on high-voltage battery tech for space missions, enabling compact energy systems with potential for laser charging integration.
-    \item Collaborated on systems-level algorithm design for battery efficiency modeling and embedded energy control logic.
+    \item Conducted technical research on high-voltage battery tech for space missions, with laser charging integration.
     \item Pitched and co-authored an innovation proposal selected by NASA MSFC for further development.
+    \item Collaborated with engineers to review innovative proposals and gained hands-on experience developing prototypes.
 \end{itemize}
-\textbf{NASA MCA by NASA MSFC} — \textit{Program Analyst \&  Computer Hardware Engineer} \hfill \textbf{Jan 2024 -- Aug 2024} \\
-\textit{Remote}
+\vspace{4mm}
+\textbf{NASA Mission Concept Academy} \hfill \textbf{Jan 2024 -- Aug 2024} \\
+Program Analyst \& Computer Engineer \hfill Remote
 \begin{itemize}
-    \item Collaborated with a team of engineering students on a simulated NASA Discovery Mission to design and execute a lunar water sample collection operation.
-    \item Managed financial and resource planning to ensure mission feasibility, including cost estimation and analysis for the Preliminary Design Review (PDR). 
-    \item Conducted mission cost estimation, resource analysis, and project timeline forecasting for major design milestones (MCR, SRR, MDR) using NASA tools such as NICM CERs/SERs and MCCET
+    \item Worked with engineers on a simulated NASA Discovery Mission to execute a lunar water sample collection operation.
+    \item Managed project timeline forecasting for major designed milestones (MCR, SRR, MDR) using NASA tools.
+    \item Conducted entire mission cost estimation, resource analysis, instruments cost using NICM CERs/SERs and MCCET.
 \end{itemize}
-\textbf{Mountain Cascade, Inc.} — \textit{IT Technician (Full-time)} \hfill \textbf{Mar 2020 -- Aug 2023} \\
-\textit{Livermore, CA}
+\vspace{4mm}
+\textbf{Mountain Cascade, Inc.} \hfill \textbf{Mar 2020 -- Aug 2023} \\
+IT Technician (Full-time) \hfill Livermore, CA
 \begin{itemize}
-    \item Provided comprehensive IT support, diagnosing hardware and software issues in a Windows environment.
-    \item Performed hands-on BIOS flashing, RAID setup, VPN configuration, NAS configuration and server maintenance.
-    \item Provided hands-on support includes break/fix, service request fulfillment, deployments, upgrades, and hardware lifecycle management.
+    \item Provided comprehensive IT support, diagnosing hardware and software issues in Windows server environment.
+    \item Performed hands-on BIOS flashing, RAID setup, VPN configuration, NAS setup, and server maintenance.
+    \item Managed hardware lifecycle: break/fix, deployments, upgrades, and service requests.
 \end{itemize}
-\textbf{Amber System Technology} — \textit{Frontend Software Developer} \hfill \textbf{Apr 2018 -- Mar 2020} \\
-\textit{Pleasanton, CA}
+\vspace{4mm}
+\textbf{Amber System Technology} \hfill \textbf{Apr 2018 -- Mar 2020} \\
+Frontend Software Developer (Part-time) \hfill Pleasanton, CA
 \begin{itemize}
-    \item Designed and implemented POS UI/UX for customer specific need to help them operate business better.
-    \item Led frontend feature development ensuring align with customer requirements and business goals.
-    \item Developed full stack website solutions to meet client-specific requirements using React, nodeJS,and MongoDB,
+    \item Developed and customized POS system UI to meet business clients’ specific requirements.
+    \item Led frontend development to ensureing align with customer requirements and their business goals.
+    \item Built full-stack web applications leveraging modern technologies to address customer requirements.
 \end{itemize}
-\textbf{Volcano Splash Drinks (Family Business)} — \textit{Barista, Manager, Business Owner} \hfill \textbf{Aug 2013 -- Dec 2018} \\
-\textit{Tracy, Stockton, Pleasanton, San Jose CA}
+%---------------project------------------
+\section*{Projects}
+\textbf{FoodReal iOS Application} (React Native, Tailwind, Expo, Firebase) \hfill \textbf{In Progress}
 \begin{itemize}
-    \item Partnered with SPECTRA by Comcast Spectacor to provide beverage services; coffee, smoothies, at baseball stadiums and public events.
-    \item Operated in various roles, including customer service, management, and marketing for a family-owned business.
-    \item Managed seasonal staffs over 60 people and led day-to-day operations of concession stands, ensuring high-quality service delivery during events.
+    \item Building mobile app to encourage home cooking and food sharing with social engagement.
+    \item Designed intuitive swipe-based interface with engaging UI.
 \end{itemize}
-%-----------PROJECTS-----------
-\section{PROJECTS}
-\textbf{FoodReal iOS Application} \textit{(React Native, Tailwind, Expo, Firebase)} \hfill \textbf{In Progress} 
+\vspace{4mm}
+\textbf{Handheld Computing Device} (C, C++, Linux, KiCad, LTspice, Raspberry Pi CM4) \hfill \textbf{In Progress}
 \begin{itemize}
-    \item Developing a mobile app that encourages users to cook at home and share meals on social media to inspire others.
-    \item Designed an intuitive, swipe-based interface with a user-friendly UI for seamless engagement.
+    \item Engineered modular computing system using Raspberry Pi CM4 and ClockworkPi v3.14.
+    \item Built custom Linux OS including bootloader setup, device tree config, and optimization.
 \end{itemize}
-\textbf{Handheld Computing Device} \textit{(C, C++, Linux, KiCad, LTspice, Raspberry Pi CM4)} \hfill \textbf{In Progress} 
+\vspace{4mm}
+\textbf{Note Hub Web Application} (Python, Flask, SQLAlchemy, Django) \hfill \textbf{Apr 2023}
 \begin{itemize}
-    \item Engineered a modular computing system using the Raspberry Pi CM4, ClockworkPi v3.14 mainboard, and battery module.
-    \item Built a custom Linux-based OS from scratch, including bootloader setup, device tree configuration, and filesystem optimization.
+    \item Created Notion-inspired web app with Flask and SQLite for note management.
+    \item Implemented secure session-based user authentication.
 \end{itemize}
-\textbf{Note Hub Web Application} \textit{(Python, Flask, SQLAlchemy, Django)} \hfill \textbf{Jan 2023 -- Apr 2023} 
+\vspace{4mm}
+\textbf{Neural Network Classifier for Iris Dataset} (PyTorch, NumPy, Pandas, Python) \hfill \textbf{May 2025}
 \begin{itemize}
-    \item Created a Notion-inspired web app with Flask and SQLite for note-taking and organization.
-    \item Implemented secure user authentication using session-based login management.
+    \item Trained CNN on sign language dataset and deployed model to Raspberry Pi with webcam.
+    \item Optimized inference with PyTorch quantization; evaluated latency and accuracy.
 \end{itemize}
-\textbf{Neural Network Deployment} \textit{(PyTorch, Python, Raspberry Pi)} \hfill \textbf{Apr 2025 -- May 2025} 
+\vspace{4mm}
+%-------Certifications--------------------------------
+\section*{Certifications}
+\textbf{NASA L'SPACE Mission Concept Academy} \hfill \textbf{Aug 2024}
 \begin{itemize}
-    \item Trained convolutional neural networks (CNNs) on a sign language image dataset and deployed the model to a Raspberry Pi with integrated webcam.
-    \item Optimized inference using PyTorch quantization and evaluated hardware performance based on latency and accuracy benchmarks.
+    \item Completed 3.5-month program simulating NASA Discovery mission design process.
 \end{itemize}
-\textbf{Waveform Generator Circuit Design / DC-to-AC Converter} \textit{(LTspice, Breadboard)} \hfill \textbf{Jan 2023 -- Apr 2023}
+\vspace{4mm}
+\textbf{NASA Proposal Writing Evaluation Experience} \hfill \textbf{Dec 2024}
 \begin{itemize}
-    \item Designed and simulated a square/triangle waveform generator using CD-40106 and BC547B components in LTspice.
-    \item Constructed the circuit on a breadboard and validated waveform outputs using an oscilloscope.
+    \item Completed a 3.5-month pitch and research program; co-authored a proposal with NASA MSFC on high-voltage laser-chargeable battery innovation.
 \end{itemize}
-
-
-%-----------CERTIFICATIONS-----------
-\section{CERTIFICATIONS}
-\textbf{NASA L’Space Mission Concept Academy} \hfill \textbf{Aug 2024}
+\vspace{4mm}
+\textbf{Google Foundations of Data Science} \hfill \textbf{Jun 2025}
 \begin{itemize}
-    \item Earned certification after completing a 3.5-month program focused on a simulated NASA Discovery mission, culminating in the Preliminary Design Review (PDR), under the guidance of NASA Marshall Space Flight Center (MSFC).
+    \item Completed professional training in data science foundations and analysis tools.
 \end{itemize}
-\textbf{NASA Proposal Writing \& Evaluation Experience} \hfill \textbf{Dec 2024}
+\vspace{4mm}
+\textbf{Google Get Started with Python} \hfill \textbf{Jun 2025}
 \begin{itemize}
-    \item Earned certification after a 3.5-month collaboration on a space innovation proposal, co-authoring the development of high-voltage, laser-chargeable battery technology with greater power density and lower weight than conventional lithium-ion cells.
+    \item Completed Python programming course for data analysis and problem-solving.
 \end{itemize}
-
-
+\vspace{4mm}
+\textbf{LinkedIn: Computer Components and Peripherals for IT Technicians} \hfill \textbf{Jun 2025}
+\begin{itemize}
+    \item Completed training on hardware peripherals for IT technicians.
+\end{itemize}
+\vspace{4mm}
 \end{document}
