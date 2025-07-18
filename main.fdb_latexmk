@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1752720247.31379 "/Users/kumamew/Documents/latexResume/Resume_Long_ver/main.tex" "main.pdf" "main" 1752720247.89615 0
-  "/Users/kumamew/Documents/latexResume/Resume_Long_ver/main.tex" 1752720247.13836 7575 2d24cfd16b2efff9a76f423c768a652a ""
+["pdflatex"] 1752818733.503 "/Users/kumamew/Documents/latexResume/Resume_Long_ver/main.tex" "main.pdf" "main" 1752818733.94545 0
+  "/Users/kumamew/Documents/latexResume/Resume_Long_ver/main.tex" 1752818733.3145 7416 b64be3d888b30c00079ad9db11113aea ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
@@ -102,9 +102,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1724724563.06495 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1724724457 8221424 02cbac57aa8d4c5730c5a0120fbbde29 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1752720247.84276 348 b96e5855bc0264c3461289467b39ecd4 "pdflatex"
-  "main.out" 1752720247.84329 88 813eb81b7d6434e0f6e8cfe1f554cb3a "pdflatex"
-  "main.tex" 1752720247.13836 7575 2d24cfd16b2efff9a76f423c768a652a ""
+  "main.aux" 1752818733.89821 348 b96e5855bc0264c3461289467b39ecd4 "pdflatex"
+  "main.out" 1752818733.89892 88 813eb81b7d6434e0f6e8cfe1f554cb3a "pdflatex"
+  "main.tex" 1752818733.3145 7416 b64be3d888b30c00079ad9db11113aea ""
   (generated)
   "main.aux"
   "main.log"
